@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gradient Generator</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <box-icon class="cube" name='cube' animation='spin'></box-icon>
+        <a class="nav-link" href="https://www.neacsustefan.me">Random Color Generator </a>
+      </li>
+    </ul>
+
+  </nav>
+  <div class="container"></div>
+  <div id="card">
+    <div class="gradient1" name="gradient1" style="background: linear-gradient(90deg, rgb(204, 130, 67), rgb(226, 76, 79));"></div>
+    <h3></h3>
+  </div>
+  <div class="form-row text-center">
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary" id="rand">
+        <box-icon class="loader" name='loader-circle' animation='spin'></box-icon> Generate</button>
+    </div>
+  </div>
+  </div>
+
+  <canvas class="background"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
